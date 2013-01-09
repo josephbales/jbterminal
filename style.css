@@ -16,7 +16,7 @@ background: #111;
 color: #2d2;
 font-family: monospace;
 font-size: 1.5em;
-margin: 50px;
+margin: 0 2em 2em 2em;
 }
 
 a {
@@ -39,6 +39,29 @@ color: #2d2;
 
 #header h1 a:hover {
 color: #fff;
+}
+
+#header input#s {
+background: #111;
+width: 300px;
+color: #2d2;
+border: 0;
+border-bottom: 1px solid #2d2;
+font-family: monospace;
+font-size: 0.9em;
+}
+
+#header input#searchsubmit {
+background: #111;
+color: #2d2;
+border: 1px solid #2d2;
+font-family: monospace;
+font-size: 0.9em;
+}
+
+#header input#searchsubmit:hover {
+background: #2d2;
+color: #111;
 }
 
 #content {
@@ -86,4 +109,13 @@ width: 85%;
 color: #222;
 background-color: #222;
 height: 3px;
+}
+
+#footer ul {
+list-style-type: none;
+}
+
+#footer ul li {
+float: left;
+padding: 0 0.8em;
 }

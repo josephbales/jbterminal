@@ -1,6 +1,8 @@
 ﻿		<div id="footer">
 			<hr>
-			<p>Some footer stuff</p>
+			<ul>
+			<?php wp_list_pages('depth=1&title_li='); ?>
+			</ul>
 		</div> <!-- end footer -->
 		<?php wp_footer(); ?>
 	</body>

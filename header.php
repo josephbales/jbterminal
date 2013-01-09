@@ -12,4 +12,12 @@
 	<body>
 		<div id="header">
 			<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+			<?php if (is_home()||is_search()||is_404()) : ?>
+			<form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+				<div><label class="screen-reader-text" for="s">Search here:</label>
+				<input type="text" value="" name="s" id="s">
+				<input type="submit" id="searchsubmit" value="Submit">
+				</div>
+			</form>
+			<?php endif; ?>
 		</div> <!-- end header -->
