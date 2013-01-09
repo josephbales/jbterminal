@@ -1,0 +1,89 @@
+/*   
+Theme Name: jbterminal
+Theme URI: http://josephbales.com
+Description: A very clean minimalist theme, without comments, archives or other features.
+ 			 Based on mnmlist theme by Leo Babauta http://mnmlist.com/theme/
+Author: Joseph Bales
+Author URI: http://josephbales.com
+Version: Alpha1
+.
+This theme is public domain, free, and offered as is.
+.
+*/
+
+body {
+background: #111;
+color: #2d2;
+font-family: monospace;
+font-size: 1.5em;
+margin: 50px;
+}
+
+a {
+text-decoration: none;
+color: #dd2;
+}
+
+a:hover {
+color: #f00;
+}
+
+#header {
+
+}
+
+#header h1 a {
+text-decoration: none;
+color: #2d2;
+}
+
+#header h1 a:hover {
+color: #fff;
+}
+
+#content {
+float: left;
+width: 60%;
+word-wrap: break-word;
+}
+
+.time {
+color: #272;
+}
+
+.editlink a {
+color: #fff;
+background: #f00;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+.editlink a:hover {
+color: #f00;
+background: #fff;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+#sidebar {
+float: left;
+width: 20%;
+margin-left: 3%;
+}
+
+.pagenav {
+list-style-type: none;
+}
+
+#footer {
+clear: both;
+text-align: center;
+}
+
+#footer hr {
+border: 0;
+width: 85%;
+color: #222;
+background-color: #222;
+height: 3px;
+}
