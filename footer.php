@@ -1,4 +1,4 @@
-		<div id="footer">
+﻿		<div id="footer">
 			<hr>
 			<p>Some footer stuff</p>
 		</div> <!-- end footer -->
