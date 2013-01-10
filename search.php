@@ -14,6 +14,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<?php endwhile; ?>
+			<div class="postnav"><p><?php posts_nav_link(' &#8734; ','Go Forward In Time','Go Back in Time'); ?></p></div>
 			<?php else : ?>
 			<h2>Not Found</h2>
 			<p>Sorry, but you are looking for something that isn't here.</p>
