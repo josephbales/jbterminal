@@ -10,6 +10,11 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
+		<?php if (is_home()) : ?>
+		<!--[if lt IE 8]>
+			<p style="background: #f00; color: #fff; margin-bottom: 60px; font-weight: bold;">You are using an outdated browser. Upgrade and you can <a href="http://browsehappy.com/" style="color: #00f">Browse Happy</a>.</p>
+		<![endif]-->
+		<?php endif; ?>
 		<div id="header">
 			<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<?php if (is_home()||is_search()||is_404()) : ?>
