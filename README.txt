@@ -4,7 +4,7 @@ Author site: http://josephbales.com
 Theme site: http://github.com/josephbales/jbterminal
 
 VERSION:
-Beta20130109
+Beta20130111
 
 ABOUT:
 This theme is based on the minimalist principles outline by

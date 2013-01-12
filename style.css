@@ -5,7 +5,7 @@ Description: A very clean minimalist theme, without comments, archives or other 
  			 Based on mnmlist theme by Leo Babauta http://mnmlist.com/theme/
 Author: Joseph Bales
 Author URI: http://josephbales.com
-Version: Beta20130109
+Version: Beta20130111
 .
 This theme is public domain, free, and offered as is.
 .
@@ -21,7 +21,7 @@ margin: 0 2em 2em 2em;
 
 a {
 text-decoration: none;
-color: #dd2;
+color: #1dbbbb;
 }
 
 a:hover {
