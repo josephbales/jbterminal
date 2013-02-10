@@ -8,7 +8,7 @@ Beta20130111
 
 ABOUT:
 This theme is based on the minimalist principles outline by
-	Leo Babuta at http://mnmlist.com and of the mnmlist theme
+	Leo Babauta at http://mnmlist.com and of the mnmlist theme
 	at http://mnmlist.com/theme
 
 INSTALLATION:
